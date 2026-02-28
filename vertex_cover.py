@@ -20,6 +20,8 @@ def vc_var(node):
     return f"VC_{node}"
 
 def subsets(nodes, size):
+    if size == 0:
+        return [[]]
     r = []
     for i in range(len(nodes)):
         for j in subsets(nodes[i+1:], size-1):
