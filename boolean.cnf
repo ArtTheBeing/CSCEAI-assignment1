@@ -1,0 +1,21 @@
+p cnf 15 20
+-a -f g 0
+-a -b -h 0
+a c 0
+a -i -l 0
+a -k -j 0
+b d 0
+b g -n 0
+b -f n k 0
+-c k 0
+-c -k -i l 0
+c h n -m 0
+c l 0
+d -k l 0
+d -g l 0
+-g n o 0
+h -o -j -n 0
+-i j 0
+-d -l -m 0
+-e m -n 0
+-f h i 0
